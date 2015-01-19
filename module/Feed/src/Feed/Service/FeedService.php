@@ -9,7 +9,7 @@
 namespace Feed\Service;
 
 /**
- * Description of CarroService
+ * Description of FeedService
  *
  * @author ivini
  */
