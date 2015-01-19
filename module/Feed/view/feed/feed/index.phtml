@@ -1,0 +1,11 @@
+<h1> Olá módulo Carro </h1>
+<ul>
+    <?php foreach($this->feed as $entry):?>
+    <li>
+        <h2><?=$entry->getTitle();?></h2>
+        <p><?=$entry->getDescription();?></p>
+        <a href="<?=$entry->getLink();?>">Leia Mais</a>
+    </li>
+    <?php endforeach;?>
+    
+</ul>
